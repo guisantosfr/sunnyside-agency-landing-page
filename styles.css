@@ -1,31 +1,116 @@
 :root {
-    /* Primary Colors */
-    --soft-red: hsl(7, 99%, 70%);
-    --yellow: hsl(51, 100%, 49%);
-    --dark-desaturated-cyan: hsl(167, 40%, 24%);
-    --dark-blue: hsl(198, 62%, 26%);
-    --dark-moderate-cyan: hsl(168, 34%, 41%);
-  
-    /* Neutral Colors */
-    --very-dark-desaturated-blue: hsl(212, 27%, 19%);
-    --very-dark-grayish-blue: hsl(213, 9%, 39%);
-    --dark-grayish-blue: hsl(232, 10%, 55%);
-    --grayish-blue: hsl(210, 4%, 67%);
-    --white: hsl(0, 0%, 100%);
-  }
-  
+  /* Primary Colors */
+  --soft-red: hsl(7, 99%, 70%);
+  --yellow: hsl(51, 100%, 49%);
+  --dark-desaturated-cyan: hsl(167, 40%, 24%);
+  --dark-blue: hsl(198, 62%, 26%);
+  --dark-moderate-cyan: hsl(168, 34%, 41%);
 
-body{
-    font-size: 18px;
+  /* Neutral Colors */
+  --very-dark-desaturated-blue: hsl(212, 27%, 19%);
+  --very-dark-grayish-blue: hsl(213, 9%, 39%);
+  --dark-grayish-blue: hsl(232, 10%, 55%);
+  --grayish-blue: hsl(210, 4%, 67%);
+  --white: hsl(0, 0%, 100%);
+}
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Barlow", sans-serif;
+}
+
+img {
+  object-fit: cover;
+}
+
+header{
+  background: url('./images/mobile/image-header.jpg') no-repeat center center/cover;;
+
+  height: 100vh;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+}
+
+.menu-toggle {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: var(--white);
+  position: absolute;
+  right: 20px;
+  top: 25px;
+  cursor: pointer;
+}
+
+.menu {
+  display: none;
+  list-style: none;
+  background: var(--white);
+  padding: 20px;
+  position: absolute;
+  top: 100px;
+  right: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 90%;
+}
+
+.menu::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  right: 4px;
+  width: 20px;
+  height: 20px;
+  background: var(--white);
+  transform: rotate(45deg);
+}
+
+.menu li {
+  padding: 1em 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: var(--dark-grayish-blue);
+  font-weight: bold;
+}
+
+.menu .contact {
+  background: var(--yellow);
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: inline-block;
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
+  color: var(--very-dark-desaturated-blue);
+  font-size: 1rem;
+}
+
+.menu.active {
+  display: block;
 }
 
 .attribution {
-    font-size: 11px;
-    text-align: center;
+  font-size: 11px;
+  text-align: center;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }
 
 /* .barlow-semibold {
