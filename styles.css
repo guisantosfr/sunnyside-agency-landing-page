@@ -104,6 +104,22 @@ header{
   display: block;
 }
 
+.header-title{
+  margin: 0 auto;
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.25rem;
+  letter-spacing: 5px;
+  color: var(--white);
+  margin-top: 5em;
+}
+
+.header-title img{
+  margin-top: 5em;
+}
+
+
 .attribution {
   font-size: 11px;
   text-align: center;
