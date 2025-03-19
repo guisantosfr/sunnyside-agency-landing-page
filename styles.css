@@ -38,7 +38,7 @@ header{
   height: 100vh;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
   font-family: "Fraunces", serif;
 }
 
@@ -212,6 +212,39 @@ h1, h2, h3 {
   background: url('./images/mobile/image-photography.jpg') no-repeat center center/cover;
   height: 80vh;
   color: var(--dark-blue)
+}
+
+.testimonials{
+  padding: 3rem 1.5rem;
+  color: var(--dark-grayish-blue);
+}
+
+.testimonials h4{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.testimonial{
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.testimonial img{
+  border-radius: 50%;
+  width: 25%;
+}
+
+.testimonial p {
+  margin: 2rem 0;
+  color: var(--very-dark-grayish-blue);
+  line-height: 1.5;
+}
+
+.testimonial h5 {
+  font-size: 1.25rem;
+  color: var(--very-dark-desaturated-blue);
+  margin-bottom: .5rem;
 }
 
 /* .barlow-semibold {
