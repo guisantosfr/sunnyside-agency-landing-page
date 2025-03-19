@@ -252,6 +252,23 @@ h1, h2, h3, h4, h5 {
   grid-template-columns: 1fr 1fr;
 }
 
+.footer{
+  background: url('./images/mobile/image-graphic-design.jpg') no-repeat center bottom/cover;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.footer p{
+  color: var(--dark-desaturated-cyan);
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.footer-links{
+  margin: 1rem 0;
+}
+
 /* .barlow-semibold {
     font-family: "Barlow", sans-serif;
     font-weight: 600;
