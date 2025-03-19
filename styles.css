@@ -208,6 +208,12 @@ h1, h2, h3 {
   text-align: center;
 }
 
+.photography{
+  background: url('./images/mobile/image-photography.jpg') no-repeat center center/cover;
+  height: 80vh;
+  color: var(--dark-blue)
+}
+
 /* .barlow-semibold {
     font-family: "Barlow", sans-serif;
     font-weight: 600;
