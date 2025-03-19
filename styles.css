@@ -35,8 +35,11 @@ img {
 
 header{
   background: url('./images/mobile/image-header.jpg') no-repeat center center/cover;
-
   height: 100vh;
+}
+
+h1, h2, h3 {
+  font-family: "Fraunces", serif;
 }
 
 .navbar{
@@ -111,7 +114,6 @@ header{
 }
 
 .header-title{
-  font-family: "Fraunces", serif;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 5px;
@@ -143,7 +145,6 @@ header{
 }
 
 .info h2{
-  font-family: "Fraunces", serif;
   font-size: 2rem;
   color: var(--very-dark-desaturated-blue);
 }
@@ -178,6 +179,33 @@ header{
 
 .stand-out-link::after{
   background-color: var(--soft-red);
+}
+
+.services > * {
+  padding: 0 .75rem;
+}
+
+.services h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  text-transform: capitalize;
+}
+
+.services p {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.graphic-design{
+  background: url('./images/mobile/image-graphic-design.jpg') no-repeat center center/cover;
+  height: 80vh;
+  color: var(--dark-desaturated-cyan)
+}
+
+.service-text{
+  position: relative;
+  top: 65%;
+  text-align: center;
 }
 
 /* .barlow-semibold {
