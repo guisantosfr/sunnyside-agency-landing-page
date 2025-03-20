@@ -197,8 +197,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .graphic-design{
-  background: url('./images/mobile/image-graphic-design.jpg') no-repeat center center/cover;
-  height: 80vh;
+  background: url('./images/mobile/image-graphic-design.jpg') no-repeat bottom center/cover;
+  height: 90vh;
   color: var(--dark-desaturated-cyan)
 }
 
@@ -209,8 +209,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .photography{
-  background: url('./images/mobile/image-photography.jpg') no-repeat center center/cover;
-  height: 80vh;
+  background: url('./images/mobile/image-photography.jpg') no-repeat bottom center/cover;
+  height: 90vh;
   color: var(--dark-blue)
 }
 
