@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
+  padding: 3rem;
 }
 
 .navbar img{
@@ -59,8 +59,8 @@ h1, h2, h3, h4, h5 {
   font-size: 2rem;
   color: var(--white);
   position: absolute;
-  right: 20px;
-  top: 25px;
+  right: 40px;
+  top: 40px;
   cursor: pointer;
 }
 
@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .header-title h1 {
-  font-size: 3rem;
+  font-size: 3.1rem;
 }
 
 .header-title img{
@@ -227,7 +227,8 @@ h1, h2, h3, h4, h5 {
 
 .testimonial{
   text-align: center;
-  margin: 3rem 0;
+  margin: 3rem auto;
+  max-width: 40ch;
 }
 
 .testimonial img{
@@ -247,9 +248,13 @@ h1, h2, h3, h4, h5 {
   margin-bottom: .5rem;
 }
 
-.gallery{
+.gallery-mobile{
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.gallery-desktop{
+  display: none;
 }
 
 .footer{

@@ -1,6 +1,69 @@
-@media(min-width: 670px) {
+@media(min-width: 425px){
+    .graphic-design{
+        background: url('./images/desktop/image-graphic-design.jpg') no-repeat bottom center/cover;
+      }
+
+      
+      .photography{
+        background: url('./images/desktop/image-photography.jpg') no-repeat bottom center/cover;
+      }  
+}
+
+@media(min-width: 692px) {
     header {
         background: url('./images/desktop/image-header.jpg') no-repeat center center/cover;
+    }
+}
+
+@media(min-width: 750px) {
+    .transform-image img,
+    .stand-out-image img{
+        height: 100%;
+    }
+    
+    .transform,
+    .stand-out,
+    .services {
+        display: flex;
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+
+    .transform{
+        flex-direction: row-reverse;
+    }
+
+    .transform>*,
+    .stand-out>*,
+    .services>* {
+        flex-basis: 50%;
+    }
+
+    .gallery-mobile{
+        display: none;
+    }
+
+    .gallery-desktop{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    
+    .background{
+        background: var(--grayish-blue);
+    }
+}
+
+@media(min-width: 900px) {
+    .testimonials-list {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .testimonial img {
+        width: 5rem;
+
     }
 }
 
