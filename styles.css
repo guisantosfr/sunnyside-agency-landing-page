@@ -266,7 +266,20 @@ h1, h2, h3, h4, h5 {
 }
 
 .footer-links{
-  margin: 1rem 0;
+  margin: 3rem 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-links a{
+  color: var(--dark-desaturated-cyan);
+}
+
+.social-links{
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin: 2rem auto; 
 }
 
 /* .barlow-semibold {
