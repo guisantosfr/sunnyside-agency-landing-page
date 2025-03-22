@@ -260,7 +260,7 @@ h1, h2, h3, h4, h5 {
 .footer{
   background: url('./images/mobile/image-graphic-design.jpg') no-repeat center bottom/cover;
   text-align: center;
-  padding: 3rem 0;
+  padding: 2rem 0;
 }
 
 .footer p{
@@ -271,35 +271,24 @@ h1, h2, h3, h4, h5 {
 }
 
 .footer-links{
-  margin: 3rem 0;
+  margin: 3rem auto;
   display: flex;
   justify-content: space-evenly;
+  max-width: 500px;
 }
 
 .footer-links a{
   color: var(--dark-desaturated-cyan);
 }
 
+.footer-links a:hover{
+  color: var(--white);
+}
+
 .social-links{
   display: flex;
   justify-content: space-between;
   width: 40%;
+  max-width: 200px;
   margin: 2rem auto; 
 }
-
-/* .barlow-semibold {
-    font-family: "Barlow", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-
-.fraunces-<uniquifier> {
-    font-family: "Fraunces", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings:
-      "SOFT" 0,
-      "WONK" 0;
-  } */

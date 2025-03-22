@@ -56,6 +56,26 @@
 }
 
 @media(min-width: 900px) {
+    .info{
+        padding: 5rem;
+        text-align: left;
+        margin-top: 2rem;
+    }
+
+    .info h2{
+        font-size: 2.75em;
+        max-width: 525px;
+    }
+
+    .info p{
+        font-size: 1.25rem;
+        max-width: 500px;
+    }
+
+    .gallery-desktop{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
     .testimonials-list {
         display: flex;
         gap: 1rem;
@@ -65,9 +85,7 @@
         width: 5rem;
 
     }
-}
 
-@media(min-width: 900px) {
     .navbar{
         padding: 3rem;
     }
@@ -112,10 +130,4 @@
     .header-title h1 {
         font-size: 3.5rem;
     }
-
-
-    /* .header-title img {
-        margin-top: 3em;
-    } */
-
 }
